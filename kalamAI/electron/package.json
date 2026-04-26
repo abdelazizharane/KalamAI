@@ -1,0 +1,53 @@
+{
+  "name": "kalamai-desktop",
+  "version": "1.0.0",
+  "description": "KalamAI — AI-powered multilingual video conferencing desktop app",
+  "main": "main.js",
+  "author": "Abdel-aziz Harane",
+  "license": "MIT",
+  "scripts": {
+    "start":      "electron .",
+    "dist:win":   "electron-builder --win",
+    "dist:mac":   "electron-builder --mac",
+    "dist:linux": "electron-builder --linux",
+    "dist:all":   "electron-builder -mwl"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron":         "^30.0.0",
+    "electron-builder": "^24.0.0"
+  },
+  "build": {
+    "appId":       "ai.kalam.desktop",
+    "productName": "KalamAI",
+    "copyright":   "© 2025 Abdel-aziz Harane",
+    "directories": {
+      "output": "../dist-electron"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "icons/**"
+    ],
+    "win": {
+      "target": [{ "target": "nsis", "arch": ["x64"] }],
+      "icon": "icons/icon.ico"
+    },
+    "mac": {
+      "target": [{ "target": "dmg", "arch": ["x64", "arm64"] }],
+      "icon": "icons/icon.icns",
+      "category": "public.app-category.productivity"
+    },
+    "linux": {
+      "target": ["AppImage", "deb"],
+      "icon": "icons/icon.png",
+      "category": "Network"
+    },
+    "nsis": {
+      "oneClick":           false,
+      "allowToChangeInstallationDirectory": true,
+      "installerIcon":      "icons/icon.ico",
+      "installerHeaderIcon":"icons/icon.ico"
+    }
+  }
+}

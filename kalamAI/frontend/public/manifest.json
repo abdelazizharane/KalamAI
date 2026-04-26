@@ -1,0 +1,45 @@
+{
+  "name": "KalamAI — Meeting without language barriers",
+  "short_name": "KalamAI",
+  "description": "AI-powered multilingual video conferencing — speak any language, understood by all",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0d1a1b",
+  "theme_color": "#3C6E71",
+  "lang": "en",
+  "categories": ["communication", "productivity"],
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "New Meeting",
+      "short_name": "New",
+      "description": "Start a new meeting instantly",
+      "url": "/?action=new",
+      "icons": [{ "src": "/icons/icon.svg", "sizes": "any" }]
+    },
+    {
+      "name": "Join Meeting",
+      "short_name": "Join",
+      "description": "Enter a meeting code",
+      "url": "/?action=join",
+      "icons": [{ "src": "/icons/icon.svg", "sizes": "any" }]
+    }
+  ],
+  "screenshots": [],
+  "prefer_related_applications": false
+}
