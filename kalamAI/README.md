@@ -1,6 +1,6 @@
 # KalamAI
 
-> **Kalam** = “word” in Chadian Arabic — the voice of Africa.
+> **Kalam** = “word” in Chadian Arabic — the voice meeting of Africa.
 
 KalamAI is a real-time multilingual video conferencing platform designed for Africa. It allows each participant to speak in their native language and hear the meeting translated live into their chosen language — no setup required, directly in the browser.
 
@@ -87,7 +87,7 @@ Listener hears the voice translated into their language
 | ---- | -------------------- | ----------------- |
 | `fr` | French               | edge-tts (neural) |
 | `en` | English              | edge-tts (neural) |
-| `ar` | العربية — Arabic     | edge-tts (neural) |
+| `ar` | العربية — Arabic        | edge-tts (neural) |
 | `ha` | Hausa                | MMS-TTS (offline) |
 | `ff` | Fulfulde / Fulfuldé  | MMS-TTS (offline) |
 | `sw` | Kiswahili            | edge-tts (neural) |
@@ -149,7 +149,8 @@ The Sara family is a group of Nilo-Saharan languages spoken mainly in southern C
 
 ### 16 Target Sara Dialects
 
-|---|----------|-----------|------|
+| #   | Dialect     | Speaker | Zone                     |
+| --- | ------------ | --------- | ------------------------ |
 | 1 | **Ngambay** | ~900,000 | Mandoul, Eastern Logone |
 | 2 | Mbay | ~200,000 | Middle Chari |
 | 3 | Gor | ~150,000 | Tandjilé |
