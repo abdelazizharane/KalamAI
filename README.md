@@ -1,5 +1,9 @@
-# KalamAI - Visioconference 
+# KalamAI - Visioconference platform for low-ressource languages 
 A video conferencing platform with real-time audio translation powered by Claude Opus 4.7, designed for African and international institutions.
+
+<img width="334" height="85" alt="image" src="https://github.com/user-attachments/assets/8ebfa359-ae39-4360-b172-fd8e3ed0df18" />
+
+
 
 ## 🚀 Quick Start
 
